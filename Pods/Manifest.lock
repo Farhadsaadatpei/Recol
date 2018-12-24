@@ -1,0 +1,85 @@
+PODS:
+  - EFCountingLabel (4.0.1)
+  - MaterialComponents/AnimationTiming (63.0.0)
+  - MaterialComponents/BottomAppBar (63.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+  - MaterialComponents/ButtonBar (63.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+  - MaterialComponents/Buttons (63.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Dialogs (63.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Ink (63.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationBar (63.0.0):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Palettes (63.0.0)
+  - MaterialComponents/private/Application (63.0.0)
+  - MaterialComponents/private/KeyboardWatcher (63.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (63.0.0)
+  - MaterialComponents/private/Shapes (63.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (63.0.0)
+  - MaterialComponents/ShadowLayer (63.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/TextFields (63.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (63.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+  - SwiftValidator (3.0.1)
+
+DEPENDENCIES:
+  - EFCountingLabel
+  - MaterialComponents/BottomAppBar
+  - MaterialComponents/Dialogs
+  - MaterialComponents/TextFields
+  - SwiftValidator (= 3.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EFCountingLabel
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - SwiftValidator
+
+SPEC CHECKSUMS:
+  EFCountingLabel: 1beb6707761ad00b97efc8bde5c3fceaa7cb9eec
+  MaterialComponents: 4e0c0ee000e0dcbf5214b0054767ef9f8f812264
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  SwiftValidator: c59223144754045d7691febdc3b3ecc2e73b609c
+
+PODFILE CHECKSUM: 242ec30ae0940698bf4db0dcc0b07d46583fd269
+
+COCOAPODS: 1.5.3

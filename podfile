@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'recol' do
+  pod 'MaterialComponents/TextFields'
+  pod 'MaterialComponents/BottomAppBar'
+  pod 'MaterialComponents/Dialogs'
+  pod 'SwiftValidator', '3.0.1'
+  pod 'EFCountingLabel'
+end
